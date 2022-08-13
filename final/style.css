@@ -1,0 +1,127 @@
+.container{
+    margin: auto;
+    margin-top: 10px;
+	width:max-content;
+ 
+	
+    /* border: 3px solid black; */
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+	 /* margin:50px 50px 50px 5%; */ 
+  width:20%;
+  text-align:center;
+   margin:25px;
+  display:inline-block;
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+body{
+	margin:0;
+	font-family:system-ui;
+}
+
+ .parallax{
+	background-image:url("imgs/background.jpg");
+	height:max-content;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+ }
+ 
+  .page-title{
+	  background:rgba(0,0,0,0.5);
+	  text-align:center;
+	  color:white;
+	  padding:50px;
+	  font-variant:small-caps;
+	  font-size:100px;
+	  font-family:fantasy;
+	  letter-spacing:20px;
+  }
+  .container, .deals-container{
+  margin:50px 50px 50px 5%;
+  width:90%;
+  text-align:center;
+  }
+  .categories, .items{
+  width:max-content;
+  margin:25px;
+  border:1px solid #184d47;
+  border-radius:0 0 50px 50px;
+  display:inline-block;
+  }
+  
+.categories:hover, .items:hover{
+box-shadow:0 0 10px 3px #184d47;
+}
+
+.item-image{
+height:200px;
+width:200px;
+border-radius:0 0 50px 50px;
+padding:10px;
+}
+
+.image-title{
+text-align:center;
+padding:10px;
+font-weight:bold;
+
+}
+a{
+text-decoration:none;
+}
+
+.title{
+padding:50px;
+font-size:50px;
+font-weight:bold;
+letter-spacing:10px;
+color:white;
+background:rgba(0,0,0,0.5);
+}
+
+.deal{
+padding:50px;
+font-size:20px;
+font-weight:bold;
+color:white;
+display:inline-block;
+margin:20px;
+max-width:20%;
+}
+
+.images{
+display:inline-block;
+}
+.item-image-size{
+height:100px;
+width:200px;
+padding:5px;
+}
+ .heading{
+ text-align:center;
+ color:green;
+ }

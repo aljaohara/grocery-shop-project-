@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="CSS2.CSS">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script>
+        var swiper = new Swiper(".review-slider", {
+    loop:true,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: false,
+    },
+    centeredSlides: true,
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1020: {
+        slidesPerView: 3,
+      },
+    },
+});
+  
+      </script>
+</head>
+<body>
+
+ 
+
+    <br>
+
+
+    <!-- header section starts  -->
+    <header>
+        <img 
+        src="imgs/app.jpg"
+        class="logo" width="200" height="110">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="http://localhost/final/login_form.php">login</a></li>
+                <li><a href="HOME2.HTML" target="#contactUS">HOME</a></li>
+                
+                <li><a href="#contactUS" target="-">contact us</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="FinalCart2.html">start shoping</a></li>
+
+            </ul>
+        </nav>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </header><br>
+
+    <!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh and <span>organic</span> products for your</h3>
+        <p>accessing a fresh and organic food it’s pretty difficult and time-consuming now a day. in our shop we provide you with a best fresh and organic product for your health and your time</p>
+        <a href="FinalCart2.html" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> our <span>features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="imgs/feature-img-1.png" alt="">
+            <h3>fresh and organic</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+            
+        </div>
+
+        <div class="box">
+            <img src="imgs/feature-img-2.png" alt="">
+            <h3>free delivery</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
+         
+        </div>
+
+        <div class="box">
+            <img src="imgs/feature-img-3.png" alt="">
+            <h3>easy payments</h3>
+           <p> flexibility to use your credit card to make a payment for a substantial amount then repay it in instalments within a certain period</p>
+          
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="imgs/pic-1.png" alt="">
+                <p>Such an easy process !.</p>
+                <h3> Mohammed Saleh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="imgs/pic-2.png" alt="">
+                <p> What a great service and the most important thing is knowing that all my information are secured.</p>
+                <h3>Nora Abdullah</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="imgs/pic-3.png" alt="">
+                <p> خدمة سهله وسريعة </p>
+                <h3>sultan Mohammed</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="imgs/pic-4.png" alt="">
+                <p> موقع رائع ومرن والتوصيل سريع </p>
+                <h3> Reem Khaled </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+<!--DEV TEAM START-->
+<section class="DEVTEAM" id="DEVTEAM">
+
+    <h1 class="heading"> DEVELOPMENT TEAM</span> </h1>
+
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="imgs/RAGHPIC.png" alt="">
+                <h3>RAGHAD ALsaif</h3>
+                <p>A junior developer developer passion with reading book and sleep develop the homepage and frequent ask question willing to learn more if you have any opportunity</p>
+           
+               
+            </div>
+       
+        <div class="box-container">
+
+            <div class="box">
+                <img src="imgs/ALJOPIC.jpeg" alt="">
+                <h3>Aljohara alfassam</h3>
+                <p>A junior  developer passion with reading book and sleep develop the homepage and frequent ask question willing to learn more if you have any opportunity</p>
+           
+               
+            </div>
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="imgs/AREEBPIC.jpeg" alt="">
+                <h3>Areeb Al-sultan</h3>
+                <p>A junior developer developer passion with reading book and sleep develop the homepage and frequent ask question willing to learn more if you have any opportunity</p>
+           
+               
+            </div>
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="imgs/BUDOORPIC.jpeg" alt="">
+                <h3>Budoor Mufti</h3>
+                <p>A junior developer developer passion with reading book and sleep develop the homepage and frequent ask question willing to learn more if you have any opportunity</p>
+           
+               
+            </div>
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="imgs/REEFPIC.jpeg" alt="">
+                <h3>Reef Al-twaijri</h3>
+                <p>A junior developer developer passion with reading book and sleep develop the homepage and frequent ask question willing to learn more if you have any opportunity</p>
+           
+               
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--DEV TEAM END-->
+
+    <!--the footer part START-->  
+    <footer id="contactUS">
+        <div class="main-contact">
+          <div class="left box">
+             <h2>About us</h2>
+             <div class="content">
+               <p ><span  style="color:black ">ASAP is grocery market that provides awesome services such online ordering and housse delivery</span></p>
+                 <div class="social">
+                  <a href="#"><span class="fab fa-facebook-f"></span></a>
+                  <a href="#"><span  class="fab fa-twitter"></span></a>
+                  <a href="#"><span class="fab fa-instagram"></span></a>
+       
+        </div>
+          </div>
+             </div>
+                
+    
+                 <div class="center box" >
+                     <h2>Address</h2>
+                     <div class="content" >
+                         <div class="place">
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="text"  style="color:black ">   Riyadh, Saudi Arabia KSA</span>
+                         </div>
+                         <br>
+                         <div class="phone">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text"  style="color:black "> +966-503232105</span>
+                         </div> 
+                         <br> 
+                         <div class="email">
+                             
+                            <span class="fas fa-envelope"></span>
+                            <span class="text"  style="color:black "> ASAP.CustomerService@gmail.com </span>
+                         </div>
+                     </div>
+                </div>
+                     <div class="right box">
+                         <h2>contact US</h2>
+                         <div class="content">
+                             <form action="content.PHP" method="post">
+                                 <div class="email">
+                                     <div class="text"  style="color:black ">
+                                         Email *</div>
+                                         <input type="email" required>    
+                                        </div>
+                                     
+                                     <div class="msg">
+                                         <div class="text"  style="color:black ">Messsage *
+    
+                                         </div>
+                                         <textarea name="text" id="text" cols="25" rows="2" required></textarea>
+                                     </div>
+                                     <div class="btn">
+                                        <button type="submit">send</button>
+                                     </div>
+                               
+                             </form>
+                         </div>
+                     </div>
+                 </div>
+               
+    </footer> 
+      <!--the footer part END-->  
+</body>
+</html>
